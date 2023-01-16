@@ -1,0 +1,3 @@
+<p class="text-center rounded " [ngClass]="mensaje[1]? 'bg-green-200 text-green-700':'bg-red-200 text-red-400 text-center rounded '">
+    <span  *ngIf="mensaje[1]">Registro exitoso: </span >{{mensaje[0] | json}}
+  </p>
